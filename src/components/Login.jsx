@@ -40,7 +40,6 @@ const Login = () => {
 	/* const [data, setData] = useState({}); */
 
 	const [loginTextValue, setLoginTextValue] = useState('');
-	
 	const [passwordTextValue, setPasswordTextValue] = useState('');
 
 	const accesses = {
@@ -118,6 +117,17 @@ const Login = () => {
 
 				<PrimaryButton disabled={!isFormValid}>Submit</PrimaryButton>
 			</Form>
+
+			<div className="accesses-cnt">
+				<div className="accesses__title">
+					Accesses
+				</div>
+
+				<div className="accesses__values">
+					<span>Login: developer21</span><br/>
+					<span>Password: 123456</span>
+				</div>
+			</div>
 		</FormContainer>
 	);
 };

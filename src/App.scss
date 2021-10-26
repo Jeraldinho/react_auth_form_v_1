@@ -1,0 +1,33 @@
+.App {
+	text-align: center;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+.accesses-cnt {
+	position: relative;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.23);
+	margin-top: 20px;
+}
+
+.accesses {
+	&__title {
+		background: #fff;
+		display: inline-block;
+		padding: 0 10px;
+		position: absolute;
+		top: -13px;
+		left: 50%;
+		transform: translatex(-50%);
+		color: rgba(0, 0, 0, 0.45%);
+	}
+
+	&__values {
+		color: rgba(0, 0, 0, 0.45%);
+		text-align: left;
+		line-height: 1.5;
+	}
+}
